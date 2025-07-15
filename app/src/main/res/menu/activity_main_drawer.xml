@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="个人信息"
+            app:iconTint="@color/blue" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/baseline_history_24"
+            android:title="历史记录"
+            app:iconTint="@color/blue" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/baseline_star_24"
+            android:title="收藏夹"
+            app:iconTint="@color/blue" />
+        <item
+            android:id="@+id/nav_comments"
+            android:icon="@drawable/baseline_comment_24"
+            android:title="我的评论"
+            app:iconTint="@color/blue" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_info_24"
+            android:title="关于APP"
+            app:iconTint="@color/blue" />
+    </group>
+</menu>
